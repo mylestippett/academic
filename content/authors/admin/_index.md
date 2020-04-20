@@ -21,9 +21,10 @@ organizations:
 bio: Digital Marketer interested in CRO, Email, UX, Growth and Retention.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Email Marketing
+- Conversion Optimisation
+- User Experience
+- Analytics and User Research
 
 education:
   courses:
@@ -48,9 +49,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MylesTippett
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: fa-linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/myles-tippett-98a30132/
 - icon: github
   icon_pack: fab
   link: https://github.com/mylestippett
