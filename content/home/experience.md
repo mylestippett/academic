@@ -18,19 +18,13 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Subscription Engagement and Retention"
+  company = "Packt Publishing"
   company_url = ""
   location = "California"
   date_start = "2017-01-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  description = """I use tools like Intercom, Zuora, ProfitWell and SurveyMonkey to engage with Packt’s growing subscriber base. Growing monthly recurring revenue and active users are the two primary goals of the subscription team. I primarily focus on user acquisition, free trial conversion rate, 1st and 3rd month retention and annual retention."""
 
 [[experience]]
   title = "Professor"
