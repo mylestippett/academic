@@ -15,10 +15,10 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
+  icon = "fab fa-mailchimp"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  name = "Mailchimp"
+  description = "Mailchimp"
   
 [[feature]]
   icon = "chart-line"
