@@ -26,7 +26,7 @@ interests:
 - User Experience
 - Analytics and User Research
 
-education:
+career:
   courses:
   - course: PhD in Artificial Intelligence
     institution: Stanford University
@@ -49,7 +49,7 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MylesTippett
-- icon: fa-linkedin
+- icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/myles-tippett-98a30132/
 - icon: github
