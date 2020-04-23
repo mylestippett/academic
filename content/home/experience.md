@@ -24,8 +24,8 @@ date_format = "Jan 2006"
   location = "Birmingham, UK"
   date_start = "2015-09-01"
   date_end = ""
-  description = """I use tools like Intercom, Zuora, ProfitWell and SurveyMonkey to engage with Packt’s growing subscriber base. Growing monthly recurring revenue and active users are the two primary goals of the subscription team. I primarily focus on user acquisition, free trial conversion rate, 1st and 3rd month retention and annual retention.
-  Previously: Digital Analytics & Insight Manager
+  description = """I use tools like Intercom, Zuora, ProfitWell and SurveyMonkey to engage with Packt’s growing subscriber base. Growing monthly recurring revenue and active users are the two primary goals of the subscription team. I primarily focus on user acquisition, free trial conversion rate, 1st and 3rd month retention and annual retention."""
+ """Previously: Digital Analytics & Insight Manager
   Previously: Digital Conversion Manager"""
 
 [[experience]]
