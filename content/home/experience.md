@@ -24,7 +24,9 @@ date_format = "Jan 2006"
   location = "Birmingham, UK"
   date_start = "2015-09-01"
   date_end = ""
-  description = """I use tools like Intercom, Zuora, ProfitWell and SurveyMonkey to engage with Packt’s growing subscriber base. Growing monthly recurring revenue and active users are the two primary goals of the subscription team. I primarily focus on user acquisition, free trial conversion rate, 1st and 3rd month retention and annual retention."""
+  description = """I use tools like Intercom, Zuora, ProfitWell and SurveyMonkey to engage with Packt’s growing subscriber base. Growing monthly recurring revenue and active users are the two primary goals of the subscription team. I primarily focus on user acquisition, free trial conversion rate, 1st and 3rd month retention and annual retention.
+  Previously: Digital Analytics & Insight Manager
+  Previously: Digital Conversion Manager"""
 
 [[experience]]
   title = "Digital Marketing Manager"
@@ -33,6 +35,15 @@ date_format = "Jan 2006"
   location = "Birmingham, UK"
   date_start = "2013-03-01"
   date_end = "2015-08-31"
-  description = """I managed and worked in the Digital team within Marketing after my move to the West Midlands. I joined sk:n with the remit of achieving increased conversion rates, transforming the website and growing the brand digitally."""
+  description = """Managing the Digital team and driving the strategy online. I joined sk:n with the remit of achieving increased conversion rates, transforming the website and growing the brand digitally."""
+  
+[[experience]]
+  title = "Internet Marketer"
+  company = "Essential Travel (acquired by Thomas Cook Group)"
+  company_url = "https://www.essentialtravel.co.uk/"
+  location = "London, UK"
+  date_start = "2007-09-01"
+  date_end = "2013-02-28"
+  description = """A broad digital marketing role which encompassed all aspects of the brand's online footprint. Email campaigns, CMS work, landing page optimisations, PPC campaigns, SEO improvements, customer feedback, analytics."""
 
 +++
