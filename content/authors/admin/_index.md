@@ -26,7 +26,7 @@ interests:
 - User Experience
 - Analytics and User Research
 
-career:
+education:
   courses:
   - course: PhD in Artificial Intelligence
     institution: Stanford University
