@@ -7,7 +7,7 @@ summary: A quick tutorial on how I went about tracking Mailchimp forms on a
   website using Tag Manager. This allowed me to see which pages were generating
   the most sign ups to a Mailchimp list and would allow me to further optimise
   designs and placements of the forms to increase sign up rate.
-draft: true
+draft: false
 featured: false
 authors:
   - ""
