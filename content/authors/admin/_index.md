@@ -15,13 +15,14 @@ role: Subscription Engagement and Retention
 # Organizations/Affiliations
 organizations:
 - name: Packt Publishing
-  url: "https://www.packtpub.com/"
+  url: "https://subscription.packtpub.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Digital Marketer interested in CRO, Email, UX, Growth and Retention.
 
 interests:
 - Email Marketing
+- CRM
 - Conversion Optimisation
 - User Experience
 - Analytics and User Research
@@ -43,9 +44,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: envelope
+#   icon_pack: fas
+#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MylesTippett
