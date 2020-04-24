@@ -24,9 +24,10 @@ date_format = "Jan 2006"
   location = "Birmingham, UK"
   date_start = "2015-09-01"
   date_end = ""
-  description = """I use tools like Intercom, Zuora, ProfitWell and Heap to engage with Packt’s growing subscriber base. Growing monthly recurring revenue and active users are the two primary goals of the subscription team. I primarily focus on user acquisition, free trial conversion rate, 1st and 3rd month retention and annual retention.
+  description = """I use tools like Intercom, Zuora, ProfitWell and Heap to engage with customers of Packt's growing subscription service. I primarily focus on trial conversion rate, retention across all plans and engagement throughout the user lifecycle.
   
-  Previously: Digital Conversion Manager"""
+  **Previously:** Digital Conversion Manager
+  **Previously:** Digital Campaign Manager"""
 
 [[experience]]
   title = "Digital Marketing Manager"
