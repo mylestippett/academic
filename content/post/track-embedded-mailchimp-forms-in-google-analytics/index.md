@@ -3,13 +3,14 @@ title: Track Embedded Mailchimp Forms in Google Analytics
 subtitle: A quick tutorial on how to  track Mailchimp sign up forms in Google
   Analytics via Google Tag Manager
 date: 2020-04-24T20:26:45.453Z
-summary: A quick tutorial on how I went about tracking Mailchimp forms on a
-  website using Tag Manager. This allowed me to see which pages were generating
-  the most sign ups to a Mailchimp list and would allow me to further optimise
-  designs and placements of the forms to increase sign up rate.
+summary: A quick tutorial on how to track Mailchimp sign up form submissions in
+  Google Analytics via Google Tag Manager
 draft: false
 featured: false
 authors:
+  - Myles
+tags:
+  - email
   - ""
 image:
   filename: mailchimp-icon-300x300.png
