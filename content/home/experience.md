@@ -27,6 +27,7 @@ date_format = "Jan 2006"
   description = """I use tools like Intercom, Zuora, ProfitWell and Heap to engage with customers of Packt's growing subscription service. I primarily focus on trial conversion rate, retention across all plans and engagement throughout the user lifecycle.
   
   **Previously:** Digital Conversion Manager
+  
   **Previously:** Digital Campaign Manager"""
 
 [[experience]]
