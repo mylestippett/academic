@@ -55,7 +55,7 @@ Let's have a look at (a stripped back version of) Mailchimp's embed code:
 <!--End mc_embed_signup-->
 ```
 
-
+We're most interested in the **<form>** element and in particular the ID attribute which is *id="mc-embedded-subscribe-form"*.
 
 ## 2. Track Form Submissions in Analytics
 
