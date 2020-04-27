@@ -7,7 +7,7 @@ date: 2020-03-01T10:45:59.732Z
 summary: A select list of free digital marketing certifications and training
   across subjects like Digital Marketing, Analytics, PPC, Email and related
   subjects
-draft: true
+draft: false
 featured: false
 authors:
   - Myles
