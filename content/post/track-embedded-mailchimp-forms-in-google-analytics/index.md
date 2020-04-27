@@ -59,7 +59,7 @@ We're most interested in the **<form>** element and in particular the ID attribu
 
 ## 2. Track Form Submissions in Analytics
 
-Once the form is on your page and now armed with the form ID you can set up your Tag Manager trigger. You can setup your trigger exactly like in the image below.
+Once the form is on your page and now armed with the form ID you can set up your Tag Manager trigger. Setup your trigger like in the image below.
 
 ![Google Tag Manager - Form Submission Trigger](https://raw.githubusercontent.com/mylestippett/academic/master/static/img/tagmanager_trigger_formsubmission-1024x534.png "Google Tag Manager - Form Submission Trigger")
 
