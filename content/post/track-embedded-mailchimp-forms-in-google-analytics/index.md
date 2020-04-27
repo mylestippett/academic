@@ -61,7 +61,7 @@ We're most interested in the **<form>** element and in particular the ID attribu
 
 Once the form is on your page and now armed with the form ID you can set up your Tag Manager trigger. You can setup your trigger exactly like in the image below.
 
-\[INSERT IMAGE]
+![Google Tag Manager - Form Submission Trigger](https://raw.githubusercontent.com/mylestippett/academic/master/static/img/tagmanager_trigger_formsubmission-1024x534.png "Google Tag Manager - Form Submission Trigger")
 
 Once your trigger is set up you can now create your event. This will push the form submission into your Google Analytics account. Remember to think about Event naming conventions so that the category, action and label all make sense when they’re used for very different things. So this trigger uses your standard Universal Analytics tag type – fill in the values but remember the ‘Value’ tag is optional and can be left blank.
 
