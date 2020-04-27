@@ -20,14 +20,14 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Digital Marketer interested in CRO, Email, UX, Growth and Retention.
 
-interests:
+Interests:
 - Email Marketing
 - CRM
 - Conversion Optimisation
 - User Experience
 - Analytics and User Research
 
-#education:
+Toolset:
 #  courses:
 #  - course: PhD in Artificial Intelligence
 #    institution: Stanford University
