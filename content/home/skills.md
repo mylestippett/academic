@@ -18,18 +18,18 @@ subtitle = ""
   icon = "fab fa-mailchimp"
   icon_pack = "fab"
   name = "Mailchimp"
-  description = "Mailchimp"
+  description = "Setup, List Management, Campaigns, Automations, Reporting"
   
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  icon = "fa-intercom"
+  icon_pack = "fab"
+  name = "Intercom"
+  description = "User Onboarding, Workflows, Tours, Segmentation, Bots, Engagement"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "fa-chart-line"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Analytics"
+  description = "Setup, Tracking, Segmentation, Reporting, Analysis"
 
 +++
