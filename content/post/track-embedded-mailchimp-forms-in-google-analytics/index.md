@@ -17,25 +17,55 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-A quick tutorial on how I went about tracking Mailchimp forms on a website using Tag Manager. This allowed me to see which pages were generating the most sign ups to a Mailchimp list and would allow me to further optimise designs and placements of the forms to increase sign up rate. Historically you would have had to put event tracking on the submit button but Tag Manager’s Form Submission trigger type means you can now track successful submissions on embedded forms like this one. This trigger type is especially useful for when you don’t have control on what happens after a form is submitted.
+A quick tutorial on how I went about tracking Mailchimp forms on a website using Google Tag Manager (GTM). This allowed me to see which pages were generating the most sign ups to a Mailchimp list and would allow me to further optimise designs and placements of the forms to increase sign up rate. Historically you would have had to put event tracking on the submit button but Tag Manager's *Form Submission* trigger type means you can now track successful submissions on embedded forms like this one. This trigger type is especially useful for when you don’t have control on what happens after a form is submitted.
 
 ## 1. Get the Mailchimp Form Code
 
-In your Mailchimp account go to Lists > \[list name] > Sign Up Forms > Embedded Forms. You’ll then get a few options as to the way your form will display. For this example I’ll use a condensed format that just asks for an email input.
+In your Mailchimp account go to Lists > \[list name] > Sign Up Forms > Embedded Forms. You will then get a few options as to the way your form will display.
 
-Notice the HTML code created in the image below – the red line highlighted is the ID of the form and this is what Tag Manager will use to identify it.
+Let's have a look at (a stripped back version of) Mailchimp's embed code:
 
-[INSERT IMAGE]
+```
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://packtpub.us11.list-manage.com/subscribe/post?u=[USERVALUE]&amp;id=[LISTVALUE]" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_693897ba2220b83ddb807103a_c970747b22" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+```
+
+
 
 ## 2. Track Form Submissions in Analytics
 
 Once the form is on your page and now armed with the form ID you can set up your Tag Manager trigger. You can setup your trigger exactly like in the image below.
 
-[INSERT IMAGE]
+\[INSERT IMAGE]
 
 Once your trigger is set up you can now create your event. This will push the form submission into your Google Analytics account. Remember to think about Event naming conventions so that the category, action and label all make sense when they’re used for very different things. So this trigger uses your standard Universal Analytics tag type – fill in the values but remember the ‘Value’ tag is optional and can be left blank.
 
-[INSERT IMAGE]
+\[INSERT IMAGE]
 
 The trigger for this tag is what you just setup so apply this to the tag and you’re done. You can now go into Preview mode in Tag Manager and test this out for real on your site. If you submit a form successfully then you should see the event fire. Once your testing is complete then publish your new container version and see your Analytics account populate with your new Event.
 
