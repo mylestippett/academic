@@ -21,15 +21,15 @@ subtitle = ""
   description = "Setup, List Management, Campaigns, Automations, Reporting"
   
 [[feature]]
-  icon = "fa-intercom"
+  icon = "fab fa-intercom"
   icon_pack = "fab"
   name = "Intercom"
   description = "User Onboarding, Workflows, Tours, Segmentation, Bots, Engagement"  
   
 [[feature]]
-  icon = "fa-chart-line"
+  icon = "fas fa-chart-line"
   icon_pack = "fas"
   name = "Analytics"
-  description = "Setup, Tracking, Segmentation, Reporting, Analysis"
+  description = "Setup, Tracking, Segmentation, Reporting, Analysis, Integration"
 
 +++
